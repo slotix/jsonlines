@@ -23,6 +23,8 @@ title: On The Web
 
 <p><a href="https://dataflowkit.com">Dataflow kit</a> is a web scraping open source framework written in Go. JSON Lines is one of the supported formats for storing results.</p>
 
+<p><a href="https://streams.dbconvert.com/jsonl-viewer">DBConvert JSONL Viewer</a> is a browser-based viewer for JSON Lines files. It checks each line separately and reports the ones that are not valid JSON, infers column types across the file including nested objects, and runs read-only SQL over the valid records. The file is read in the browser and is not uploaded.</p>
+
 <p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/155">Firefox</a> JSON viewer supports JSON Lines.</p>
 
 <p><a href="https://pkg.go.dev/encoding/json#NewEncoder">Go Standard library's json.Encoder</a> will produce JSON lines by default. The decoder parses Concatenated JSON, which is compatible with, though less strict than, JSON lines</p>
